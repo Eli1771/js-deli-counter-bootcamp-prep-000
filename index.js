@@ -17,9 +17,9 @@ function nowServing(line) {
 
 function currentLine(line) {
   if (line > 0) {
-    var line = "The line is currently: ";
+    var out = "The line is currently: ";
     for (var i = 0; var < line.length; i++) {
-      line = line + (i + 1) + '. ' + line[i] + ', ';
+      out = line + (i + 1) + '. ' + line[i] + ', ';
     }
       return line;
     } else {
