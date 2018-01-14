@@ -18,12 +18,12 @@ function nowServing(line) {
 function currentLine(line) {
   if (!line.length) {
     return 'The line is currently empty.';
-    } else {
-      var out = "The line is currently: ";
+  } else {
+    var out = "The line is currently: ";
     for (var i = 0; i < line.length; i++) {
       out = out + (i + 1) + '. ' + line[i] + ', ';
     }
-    out = out.slice(0, out.length - 2);
-    return out;
-    }
+  out = out.slice(0, out.length - 2);
+  return out;
+  }
 }
