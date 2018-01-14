@@ -23,7 +23,7 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       out = out + (i + 1) + '. ' + line[i] + ', ';
     }
-    out.slice(0, out.length - 2);
-      return out;
+    out = out.slice(0, out.length - 2);
+    return out;
     }
 }
