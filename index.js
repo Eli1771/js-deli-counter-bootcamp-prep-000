@@ -18,8 +18,8 @@ function nowServing(line) {
 function currentLine(line) {
   if (line > 0) {
     var out = "The line is currently: ";
-    for (var i = 0; var < line.length; i++) {
-      out = line + (i + 1) + '. ' + line[i] + ', ';
+    for (var i = 0; i < line.length; i++) {
+      out = out + (i + 1) + '. ' + line[i] + ', ';
     }
       return line;
     } else {
